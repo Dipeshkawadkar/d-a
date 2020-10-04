@@ -35,10 +35,10 @@ export default function NestedList() {
     return (
         <List
             component="nav"
-            // aria-labelledby="nested-list-subheader"
+            aria-labelledby="nested-list-subheader"
             subheader={
                 <ListSubheader component="div" id="nested-list-subheader">
-                    Nested List Items
+                    {/* Nested List Items */}
         </ListSubheader>
             }
             className={classes.root}
